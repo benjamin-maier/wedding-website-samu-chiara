@@ -1,0 +1,70 @@
+#header-image {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 43%;
+}
+
+#p-beforeDate {
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#p-weddingDate {
+    font-size: 3.5em;
+    font-family: 'Antic Didone';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -400%);
+    text-shadow: 1px 1px 5px #000000;
+}
+
+#p-afterDate {
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#p-textAfterDate {
+    width: 300px;
+    max-width: 400px;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+#sectionTimetable {
+    background-color: aqua;
+}
