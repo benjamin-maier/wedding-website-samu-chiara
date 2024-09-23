@@ -5,6 +5,22 @@
     object-position: 43%;
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Antic Didone';
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#h1Timetable {
+    color: #F9D48D;
+}
+
 #p-beforeDate {
     font-size: 1em;
     font-family: 'Montserrat';
@@ -63,8 +79,10 @@
 .container {
     position: relative;
     text-align: center;
-  }
+}
 
-#sectionTimetable {
-    background-color: aqua;
+#rectOrange {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
