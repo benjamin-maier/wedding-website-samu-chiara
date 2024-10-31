@@ -1,12 +1,21 @@
+/*Bilder*/
 #header-image {
     height: 800px;
     width: 100%;
     object-fit: cover;
-    object-position: 43%;
+    object-position: 67%;
 }
 
+/*Icons*/
+.icons {
+    fill: red;
+    stroke: red;
+    width: 60px;
+}
+
+/*Allgemeiner Text*/
 h1 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: 'Antic Didone';
     font-weight: bold;
     font-style: normal;
@@ -15,10 +24,37 @@ h1 {
     text-align: center;
     margin: auto;
     padding-top: 25px;
+    margin-bottom: 5%;
 }
 
+h3 {
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 0.9em;
+    max-width: 80%;
+    margin: auto;
+}
+
+/*Spezifischer Text*/
 #h1Timetable {
     color: #F9D48D;
+}
+
+#h1Registration {
+    color: #F28A67;
+}
+
+#h3Location {
+    color: #808080;
 }
 
 #p-beforeDate {
@@ -48,9 +84,8 @@ h1 {
 }
 
 #p-afterDate {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Montserrat';
-    font-weight: bold;
     font-style: normal;
     color: white;
     position: absolute;
@@ -75,14 +110,79 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
-/* Container holding the image and the text */
-.container {
-    position: relative;
+#p-location {
+    color: #808080;
+}
+
+/*Sektionen*/
+section {
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+/*Spezifische Sektionen*/
+#sectionLocation {
+    background-color: #E8D9C7;
+}
+
+/*Div*/
+div {
     text-align: center;
 }
 
-#rectOrange {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+/*Buttons*/
+button {
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.buttonRegistration {
+    align-items: center;
+    background-color: #F28A67;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    margin: auto;
+    margin-top: 8%;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
 }
