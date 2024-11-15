@@ -103,7 +103,7 @@ p {
     font-style: italic;
     color: white;
     position: absolute;
-    top: 42%;
+    top: 340px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px #000000;
@@ -116,7 +116,7 @@ p {
     font-style: normal;
     color: white;
     position: absolute;
-    top: 77%;
+    top: 620px;
     left: 50%;
     transform: translate(-50%, -400%);
     text-shadow: 1px 1px 5px #000000;
@@ -128,7 +128,7 @@ p {
     font-style: normal;
     color: white;
     position: absolute;
-    top: 55%;
+    top: 440px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px #000000;
@@ -143,7 +143,7 @@ p {
     font-style: normal;
     color: white;
     position: absolute;
-    top: 80%;
+    top: 650px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px #000000;
