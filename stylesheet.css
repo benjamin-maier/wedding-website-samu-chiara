@@ -110,13 +110,14 @@ p {
 }
 
 #p-weddingDate {
-    font-size: 3.5em;
+    width: 100%;
+    font-size: 3em;
     font-family: 'Antic Didone';
     font-weight: normal;
     font-style: normal;
     color: white;
     position: absolute;
-    top: 620px;
+    top: 590px;
     left: 50%;
     transform: translate(-50%, -400%);
     text-shadow: 1px 1px 5px #000000;
