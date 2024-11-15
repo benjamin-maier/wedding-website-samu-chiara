@@ -1,3 +1,8 @@
+/*HTML-STruktur*/
+body {
+    max-width: 475px;
+}
+
 /*Bilder*/
 #header-image {
     height: 800px;
@@ -285,4 +290,11 @@ button {
     user-select: none;
     -webkit-user-select: none;
     vertical-align: middle;
+}
+
+/*Formen*/
+.rectTimetable {
+    width: 350px;
+    margin-left: -25px;
+    margin-top: 10px;
 }
