@@ -1,4 +1,10 @@
-/*HTML-STruktur*/
+/*Allgemeines*/
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+  }
 
 /*Bilder*/
 #header-image {
@@ -292,6 +298,6 @@ button {
 /*Formen*/
 .rectTimetable {
     width: 350px;
-    margin-left: -25px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
 }
