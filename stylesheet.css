@@ -234,7 +234,7 @@ button {
     overflow: hidden;
     padding: 0px;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 20px;
     text-align: center;
     touch-action: manipulation;
     transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
@@ -263,7 +263,7 @@ button {
     overflow: hidden;
     padding: 0px;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 20px;
     text-align: center;
     touch-action: manipulation;
     transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
@@ -292,7 +292,7 @@ button {
     overflow: hidden;
     padding: 0px;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 20px;
     text-align: center;
     touch-action: manipulation;
     transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
@@ -306,4 +306,165 @@ button {
     width: 360px;
     margin-bottom: 20px;
     float: left;
+}
+
+/*Medie Queries*/
+@media only screen and (max-width: 300px) {
+    #header-image {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 67%;
+    }
+
+    .rectTimetable {
+        float: left;
+        width: 280px;
+    }
+
+    #rectFeier {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 0.7em;
+        line-height: 15px;
+        max-width: 85%;
+    }
+
+    h1 {
+        max-width: 85%;
+        font-size: 1.8em;
+    }
+
+    h2 {
+        max-width: 85%;
+    }
+
+    #p-beforeDate {
+        font-size: 0.8em;
+        top: 210px;
+    }
+    
+    #p-weddingDate {
+        width: 100%;
+        font-size: 2em;
+        top: 380px;
+    }
+    
+    #p-afterDate {
+        font-size: 0.8em;
+        top: 280px;
+    }
+    
+    #p-textAfterDate {
+        width: 70%;
+        font-size: 0.6em;
+        top: 390px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .rectTimetable {
+        float: none;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    #sectionRegistration {
+        margin-top: 0px;
+    }
+
+    #rectFeier {
+        margin-bottom: 0px;
+    }
+
+    p {
+        max-width: 85%;
+    }
+
+    h1 {
+        max-width: 85%;
+    }
+
+    h2 {
+        max-width: 85%;
+    }
+
+    #p-beforeDate {
+        font-size: 1em;
+        top: 300px;
+    }
+    
+    #p-weddingDate {
+        width: 100%;
+        font-size: 3em;
+        top: 550px;
+    }
+    
+    #p-afterDate {
+        font-size: 1em;
+        top: 400px;
+    }
+    
+    #p-textAfterDate {
+        width: 70%;
+        font-size: 0.8em;
+        top: 600px;
+    }
+}
+
+@media only screen and (min-width: 1060px) {
+    .rectTimetable {
+        width: 340px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+    }
+
+    #sectionRegistration {
+        margin-top: 0px;
+    }
+
+    p {
+        max-width: 65%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .rectTimetable {
+        width: 400px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #sectionRegistration {
+        margin-top: 0px;
+    }
+
+    p {
+        max-width: 50%;
+    }
+
+    #p-beforeDate {
+        font-size: 1em;
+        top: 280px;
+    }
+    
+    #p-weddingDate {
+        width: 100%;
+        font-size: 3em;
+        top: 530px;
+    }
+    
+    #p-afterDate {
+        font-size: 1em;
+        top: 380px;
+    }
+    
+    #p-textAfterDate {
+        width: 50%;
+        font-size: 0.9em;
+        top: 540px;
+    }
 }
